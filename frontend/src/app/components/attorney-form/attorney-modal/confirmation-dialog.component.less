@@ -1,0 +1,99 @@
+/* General Dialog Styling */
+.mat-dialog-container {
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    animation: zoomIn 0.3s ease-out;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f3f4f6, #ffffff);
+    transform: translateY(-20px);
+  }
+  
+  /* 3D Title Styling */
+  .delete-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+    text-align: center;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 16px 0;
+    background: linear-gradient(90deg, #ff8a65, #ff7043);
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    border-bottom: 2px solid #ffe0b2;
+  }
+  
+  /* Dialog Content Styling */
+  .delete-content {
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    margin: 16px 0;
+    padding: 16px;
+  }
+  
+  .warning-text {
+    font-size: 16px;
+    font-style: italic;
+    color: #e53935;
+    margin-top: 8px;
+  }
+  
+  /* Dialog Button Actions */
+  .delete-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    border-top: 2px solid #eeeeee;
+    background: #f9f9f9;
+  }
+  
+  /* Button Styling */
+  button {
+    min-width: 120px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .cancel-button {
+    color: #4caf50;
+    border: 2px solid #4caf50;
+    background: white;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+  }
+  
+  .cancel-button:hover {
+    background: #4caf50;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(76, 175, 80, 0.3);
+  }
+  
+  .delete-button {
+    color: white;
+    background: #f44336;
+    border: none;
+    box-shadow: 0 4px 8px rgba(244, 67, 54, 0.2);
+  }
+  
+  .delete-button:hover {
+    background: #d32f2f;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(244, 67, 54, 0.3);
+  }
+  
+  /* Animation for Dialog */
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

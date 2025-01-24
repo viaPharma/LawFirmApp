@@ -1,0 +1,52 @@
+<h2 mat-dialog-title class="modal-title">
+    {{ data?.attorney ? 'Edit Attorney' : 'Add Attorney' }}
+  </h2>
+  
+  <div mat-dialog-content class="modal-content">
+    <form #attorneyForm="ngForm" class="form-container">
+      <!-- Name Field -->
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Name</mat-label>
+        <input
+          matInput
+          [(ngModel)]="attorney.name"
+          name="name"
+          required
+          placeholder="Enter name"
+        />
+      </mat-form-field>
+  
+      <!-- Email Field -->
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Email</mat-label>
+        <input
+          matInput
+          [(ngModel)]="attorney.email"
+          name="email"
+          required
+          placeholder="Enter email"
+          type="email"
+        />
+      </mat-form-field>
+  
+      <!-- Phone Number Field -->
+      <mat-form-field appearance="outline" class="form-field">
+        <mat-label>Phone Number</mat-label>
+        <input
+          matInput
+          [(ngModel)]="attorney.phoneNumber"
+          name="phone"
+          required
+          placeholder="Enter phone number"
+          type="tel"
+        />
+      </mat-form-field>
+    </form>
+  </div>
+  
+  <!-- Dialog Actions -->
+  <div mat-dialog-actions class="modal-actions">
+    <button mat-stroked-button color="warn" class="cancel-button" (click)="onCancel()">Cancel</button>
+    <button mat-raised-button color="primary" class="save-button" [disabled]="!attorneyForm.valid" (click)="onSave()">Save</button>
+  </div>
+  

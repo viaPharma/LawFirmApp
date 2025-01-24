@@ -1,0 +1,17 @@
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Repositories.deps.json
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Repositories.dll
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Repositories.pdb
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Data.dll
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Models.dll
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Models.pdb
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\bin\Debug\net8.0\LawFirmApp.Data.pdb
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.csproj.AssemblyReference.cache
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.AssemblyInfoInputs.cache
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.AssemblyInfo.cs
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.csproj.CoreCompileInputs.cache
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.csproj.CopyComplete
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.dll
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\refint\LawFirmApp.Repositories.dll
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\LawFirmApp.Repositories.pdb
+D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmApp.Repositories\obj\Debug\net8.0\ref\LawFirmApp.Repositories.dll

@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=tcp:mssql-80289-0.cloudclusters.net,13096;Initial Catalog=LawFirmDb;Persist Security Info=True;User ID=CozenCS;Password=9615219c551648f4a1C5A4204$23A94Df;Trust Server Certificate=True"
+  }
+}

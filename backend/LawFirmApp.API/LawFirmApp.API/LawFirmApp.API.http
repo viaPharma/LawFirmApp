@@ -1,0 +1,6 @@
+@LawFirmApp.API_HostAddress = http://localhost:5137
+
+GET {{LawFirmApp.API_HostAddress}}/attorneys/
+Accept: application/json
+
+###
