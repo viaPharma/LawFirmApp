@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AttorneysListComponent } from './components/attorneys-list/attorneys-list.component';
-import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 import { CommonModule } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -20,15 +19,22 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { DeleteConfirmationDialogComponent } from './components/attorney-form/attorney-modal/confirmation-dialog.component';
 import { LayoutComponent } from './components/shared/layout/layout.component';
-
-
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { AuthService } from './services/auth.service';
+import { AuthGuard } from './auth.guard';
+import { TokenInterceptor } from './token.interceptor';
+import { AdminComponent } from './components/admin/admin.component';
+import { ErrorComponent } from './components/error/error.component';
 @NgModule({
   declarations: [
     AppComponent,
     AttorneysListComponent,
     AttorneyModalComponent,
     DeleteConfirmationDialogComponent,
-    LayoutComponent 
+    LayoutComponent,
+    LoginComponent, 
+    AdminComponent, ErrorComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,11 @@ import { LayoutComponent } from './components/shared/layout/layout.component';
     MatPaginatorModule,
     MatSortModule,
   ],
-  providers: [],
+  providers: [
+    AuthService,
+    AuthGuard,
+    { provide: HTTP_INTERCEPTORS, useClass: TokenInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

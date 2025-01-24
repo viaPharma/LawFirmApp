@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cVdOs7igitMk7Xg3kGHrd6F4EoJ066mv6IFwC7Hq4sSHQ8GIDKrgO7ITkhFYH2EsRZbbdhfz7NWjD6V4GOkyOA==",
+  "dgSpecHash": "YM6SNydppPa5NMctwrBLB2wE+7W3W8SvatHOUEGtxT+HGyBltOjBA8AaFhIAA5Dk8h4C+iFqr9OSV4QTjgUoVg==",
   "success": true,
-  "projectFilePath": "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj",
+  "projectFilePath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

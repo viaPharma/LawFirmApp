@@ -1,0 +1,297 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Services\\LawFirmApp.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
+        "projectName": "LawFirmApp.Models",
+        "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj",
+        "projectName": "LawFirmApp.Data",
+        "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj",
+        "projectName": "LawFirmApp.Repositories",
+        "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj"
+              },
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Services\\LawFirmApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Services\\LawFirmApp.Services.csproj",
+        "projectName": "LawFirmApp.Services",
+        "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Services\\LawFirmApp.Services.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj"
+              },
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Data\\LawFirmApp.Data.csproj"
+              },
+              "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj": {
+                "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmApp.Repositories\\LawFirmApp.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

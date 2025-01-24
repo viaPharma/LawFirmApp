@@ -1,5 +1,6 @@
 ﻿using LawFirmApp.Models;
 using LawFirmApp.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LawFirmApp.API.Controllers
@@ -16,12 +17,14 @@ namespace LawFirmApp.API.Controllers
         }
 
         [HttpGet]
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<Attorney>>> GetAll()
         {
             var attorneys = await _repository.GetAllAsync();
             return Ok(attorneys);
         }
 
+        //[Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Attorney>> GetById(int id)
         {
@@ -33,6 +36,7 @@ namespace LawFirmApp.API.Controllers
         }
 
         [HttpPost]
+        //[Authorize(Roles = "Admin")]
         public async Task<ActionResult<Attorney>> AddAttorney([FromBody] Attorney attorney)
         {
             if (!ModelState.IsValid)
@@ -43,6 +47,7 @@ namespace LawFirmApp.API.Controllers
         }
 
         [HttpPut("{id}")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int id, [FromBody] Attorney attorney)
         {
             if (id != attorney.Id)
@@ -56,6 +61,7 @@ namespace LawFirmApp.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var success = await _repository.DeleteAsync(id);

@@ -28,6 +28,12 @@ export class AttorneysListComponent implements OnInit {
       this.dataSource.sort = this.sort;
     });
   }
+  
+  hoveredRow: any = null; // Track the row being hovered
+
+  onRowHover(row: any): void {
+    this.hoveredRow = row;
+  }
 
   // Load attorneys from API
   loadAttorneys(): void {
@@ -68,6 +74,12 @@ export class AttorneysListComponent implements OnInit {
         }
       }
     });
+  }
+
+  selectedRowIndex: number | null = null;
+
+  onRowClick(row: Attorney): void {
+    this.selectedRowIndex = row.id; // Track the selected row by ID
   }
 
   // Confirm and delete an attorney

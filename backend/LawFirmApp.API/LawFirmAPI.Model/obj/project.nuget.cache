@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hjRQl2uGsmzXuMZXyz0skRRdqbQ7hxV+0wOelwdL2H38CTQVZmKB9ZbnHp4amki51nYyyxPZwxf4G9ZXfngEBw==",
+  "dgSpecHash": "VZ7gu46QA08VIhzbACnC/r52HatY2ecZbi72sy9YRc2MLaIwPIoBwSL4Aen2tTQfhqxpBRWG7yKayaQSB9gMMg==",
   "success": true,
-  "projectFilePath": "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
+  "projectFilePath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

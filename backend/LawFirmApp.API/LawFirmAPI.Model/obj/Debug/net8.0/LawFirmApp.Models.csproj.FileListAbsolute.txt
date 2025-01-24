@@ -9,3 +9,15 @@ D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Mode
 D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\refint\LawFirmApp.Models.dll
 D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.pdb
 D:\source\Angular\CozenProject\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\ref\LawFirmApp.Models.dll
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\bin\Debug\net8.0\LawFirmApp.Models.deps.json
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\bin\Debug\net8.0\LawFirmApp.Models.dll
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\bin\Debug\net8.0\LawFirmApp.Models.pdb
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.AssemblyInfoInputs.cache
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.AssemblyInfo.cs
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.csproj.CoreCompileInputs.cache
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.sourcelink.json
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.dll
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\refint\LawFirmApp.Models.dll
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\LawFirmApp.Models.pdb
+D:\source\Angular\LawFirm\LawFirmApp\backend\LawFirmApp.API\LawFirmAPI.Model\obj\Debug\net8.0\ref\LawFirmApp.Models.dll

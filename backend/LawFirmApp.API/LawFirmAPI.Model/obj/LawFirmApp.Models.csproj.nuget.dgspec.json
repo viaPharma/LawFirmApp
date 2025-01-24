@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {}
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {}
   },
   "projects": {
-    "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
+    "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
+        "projectUniqueName": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
         "projectName": "LawFirmApp.Models",
-        "projectPath": "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
+        "projectPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\LawFirmApp.Models.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\Angular\\CozenProject\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\obj\\",
+        "outputPath": "D:\\source\\Angular\\LawFirm\\LawFirmApp\\backend\\LawFirmApp.API\\LawFirmAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
